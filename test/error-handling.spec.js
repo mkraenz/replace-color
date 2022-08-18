@@ -1,7 +1,7 @@
 /* eslint-env mocha */
 
 const assert = require("assert");
-const replaceColor = require("../lib/cjs").default;
+const replaceColor = require("../lib/cjs");
 const ReplaceColorError = require("../lib/cjs").ReplaceColorError;
 
 describe("Error handling", function () {
