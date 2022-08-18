@@ -1,5 +1,5 @@
 {
-  "name": "replace-color",
+  "name": "replace-color-ts",
   "version": "2.4.1",
   "description": "Replace color with another one pixel by pixel.",
   "keywords": [
@@ -60,5 +60,8 @@
   },
   "engines": {
     "node": ">= 6"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
