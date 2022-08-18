@@ -37,7 +37,7 @@
   "license": "MIT",
   "author": "Vladyslav Turak <turakvlad@gmail.com>. Ported to TS and ESM by Mirco Kraenz",
   "scripts": {
-    "test": "standard && mocha",
+    "test": "npm run build && mocha",
     "prebuild": "rm -r ./lib",
     "build": "tsc --project tsconfig.esm.json && tsc --project tsconfig.cjs.json"
   },
@@ -55,7 +55,6 @@
     "mocha": "^5.2.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
-    "standard": "^12.0.1",
     "typescript": "^4.7.4"
   },
   "engines": {

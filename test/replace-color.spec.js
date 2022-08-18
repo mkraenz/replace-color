@@ -2,7 +2,7 @@
 
 const assert = require('assert')
 const Jimp = require('jimp')
-const replaceColor = require('../')
+const replaceColor = require('../lib/cjs').default
 const requestPromise = require('request-promise')
 
 describe('Replace color', function () {
