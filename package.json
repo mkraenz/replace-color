@@ -1,6 +1,6 @@
 {
   "name": "replace-color-ts",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "description": "Replace color with another one pixel by pixel.",
   "keywords": [
     "CIE76",
@@ -32,9 +32,9 @@
   "files": [
     "lib/**/*"
   ],
-  "homepage": "https://github.com/turakvlad/replace-color#readme",
-  "bugs": "https://github.com/turakvlad/replace-color/issues",
-  "repository": "turakvlad/replace-color",
+  "homepage": "https://github.com/proSingularity/replace-color#readme",
+  "bugs": "https://github.com/proSingularity/replace-color/issues",
+  "repository": "proSingularity/replace-color",
   "license": "MIT",
   "author": "Vladyslav Turak <turakvlad@gmail.com>. Ported to TS and ESM by Mirco Kraenz",
   "scripts": {
