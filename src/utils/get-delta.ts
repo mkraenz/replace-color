@@ -1,5 +1,5 @@
 import deltaE from "delta-e";
-import { RGBMaybeA } from "./types";
+import type { RGBMaybeA } from "./types";
 
 export type Formula = "E76" | "E94" | "E00";
 

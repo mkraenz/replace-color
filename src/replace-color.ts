@@ -3,7 +3,7 @@ import convertColor from "./utils/convert-color";
 import getDelta, { Formula } from "./utils/get-delta";
 import isNumber from "./utils/is-number";
 import ReplaceColorError from "./utils/replace-color-error";
-import { ColorParam } from "./utils/types";
+import type { ColorParam } from "./utils/types";
 import validateColors from "./utils/validate-colors";
 
 interface Params {
