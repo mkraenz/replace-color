@@ -7,7 +7,7 @@ import type { ColorParam } from "./utils/types";
 import validateColors from "./utils/validate-colors";
 
 interface Params {
-  image: string;
+  image: string | typeof Jimp | Buffer;
   colors: ColorParam;
   formula?: Formula;
   deltaE?: number;
@@ -62,7 +62,7 @@ const replaceColor = (
       );
     }
 
-    Jimp.read(image)
+    Jimp.read(image as any)
       .then((jimpObject) => {
         const targetLABColor = convertColor(
           colors.type,
