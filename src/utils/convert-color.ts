@@ -1,4 +1,4 @@
-import * as colorConvert from "color-convert";
+import colorConvert from "color-convert";
 import { Hex, RGB, RGBA, RGBMaybeA, SupportedColorSchemes } from "./types";
 
 type Color<From> = From extends "hex"

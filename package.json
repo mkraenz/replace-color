@@ -1,6 +1,6 @@
 {
   "name": "replace-color",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "Replace color with another one pixel by pixel.",
   "keywords": [
     "CIE76",
@@ -14,17 +14,32 @@
     "remove watermark",
     "watermark detection"
   ],
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./lib/esm/types/index.d.ts",
+        "default": "./lib/esm/index.js"
+      },
+      "require": {
+        "types": "./lib/cjs/types/index.d.ts",
+        "default": "./lib/cjs/index.js"
+      }
+    }
+  },
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "files": [
+    "lib/**/*"
+  ],
   "homepage": "https://github.com/turakvlad/replace-color#readme",
   "bugs": "https://github.com/turakvlad/replace-color/issues",
   "repository": "turakvlad/replace-color",
   "license": "MIT",
-  "author": "Vladyslav Turak <turakvlad@gmail.com>. Converted to TS by Mirco Kraenz",
-  "files": [
-    "src"
-  ],
-  "main": "index.js",
+  "author": "Vladyslav Turak <turakvlad@gmail.com>. Ported to TS and ESM by Mirco Kraenz",
   "scripts": {
-    "test": "standard && mocha"
+    "test": "standard && mocha",
+    "prebuild": "rm -r ./lib",
+    "build": "tsc --project tsconfig.esm.json && tsc --project tsconfig.cjs.json"
   },
   "dependencies": {
     "color-convert": "^1.9.3",

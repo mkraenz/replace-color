@@ -74,8 +74,6 @@ const replaceColor = (
           "rgb",
           colors.replaceColor
         );
-        console.log(targetLABColor)
-        console.log(replaceRGBColor)
 
         jimpObject.scan(
           0,

@@ -1,6 +1,6 @@
 import { ColorParam } from "./types";
 
-import * as hexColorRegex from "hex-color-regex";
+import hexColorRegex from "hex-color-regex";
 
 const validateColors = (colors: ColorParam) => {
   if (!colors) {

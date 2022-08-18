@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "outDir": "./lib/esm",
+    "declarationDir": "./lib/esm/types",
+    "esModuleInterop": true
+  }
+}
