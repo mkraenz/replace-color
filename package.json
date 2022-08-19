@@ -1,6 +1,6 @@
 {
   "name": "replace-color-ts",
-  "version": "2.4.5",
+  "version": "2.4.6",
   "description": "Replace color with another one pixel by pixel.",
   "keywords": [
     "CIE76",
@@ -39,8 +39,10 @@
   "author": "Vladyslav Turak <turakvlad@gmail.com>. Ported to TS and ESM by Mirco Kraenz",
   "scripts": {
     "test": "npm run build && mocha",
-    "prebuild": "rm -r ./lib",
-    "build": "tsc --project tsconfig.esm.json && tsc --project tsconfig.cjs.json"
+    "prebuild": "rm -rf ./lib",
+    "build": "tsc --project tsconfig.esm.json && tsc --project tsconfig.cjs.json",
+    "prepublish:prod": "npm run build",
+    "publish:prod": "npm publish"
   },
   "dependencies": {
     "color-convert": "^1.9.3",
