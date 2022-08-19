@@ -13,7 +13,7 @@ declare var module: {
 };
 module.exports = replaceColor as any;
 module.exports.ReplaceColorError = ReplaceColorError;
-(module.exports as any).default = ReplaceColorError;
+(module.exports as any).default = replaceColor;
 
 export default replaceColor as Exports;
 export { default as ReplaceColorError } from "./utils/replace-color-error";

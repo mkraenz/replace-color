@@ -1,6 +1,6 @@
 {
   "name": "replace-color-ts",
-  "version": "2.4.4",
+  "version": "2.4.5",
   "description": "Replace color with another one pixel by pixel.",
   "keywords": [
     "CIE76",
