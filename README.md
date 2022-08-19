@@ -1,6 +1,6 @@
 # Replace Color TS
 
-NOW WITH TS! Fully backwards-compatible
+NOW WITH TS! Fully backwards-compatible.
 
 `replace-color-ts` replaces color with another one pixel by pixel. Especially this will be helpful if you want to remove the watermarks from the images. This package is built on top of [Jimp](https://github.com/oliver-moran/jimp).
 
