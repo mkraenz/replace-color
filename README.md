@@ -1,10 +1,10 @@
 # Replace Color TS
 
-NOW WITH TS + ES MODULE SUPPORT + backwards-compatibility!
+NOW WITH TS! Fully backwards-compatible
 
 `replace-color-ts` replaces color with another one pixel by pixel. Especially this will be helpful if you want to remove the watermarks from the images. This package is built on top of [Jimp](https://github.com/oliver-moran/jimp).
 
-Kudos to Vladyslav Turak for the original JS version of this library.
+Kudos to Vladyslav Turak for the [original JS version of this library](https://www.npmjs.com/package/replace-color).
 
 ## Install
 
